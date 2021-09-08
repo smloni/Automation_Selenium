@@ -1,0 +1,2521 @@
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:20814][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:20814][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:20814
+Connecting to localhost/127.0.0.1:20814
+Connection established 127.0.0.1:57342<->127.0.0.1:20814
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:20814
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:20814[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:790[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir13740_23196927"},"goog:chromeOptions":{"debuggerAddress":"localhost:57343"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"2d1069aa5314da47709eb0accbf20aac"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:790
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:20814] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:20814][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:20814][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:20814][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/2d1069aa5314da47709eb0accbf20aac/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/2d1069aa5314da47709eb0accbf20aac/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:20814
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/2d1069aa5314da47709eb0accbf20aac/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:20814[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"http://www.google.co.in"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:20814] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:20814][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:20814][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:20814][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/2d1069aa5314da47709eb0accbf20aac/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/2d1069aa5314da47709eb0accbf20aac/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:20814
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/2d1069aa5314da47709eb0accbf20aac/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:20814[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//*[type='submit'","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 400 Bad Request[\r][\n]"
+http-outgoing-0 << "Content-Length:1236[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"error":"invalid selector","message":"invalid selector: Unable to locate an element with the xpath expression //*[type='submit' because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[type='submit'' is not a valid XPath expression.\n  (Session info: chrome=92.0.4515.159)","stacktrace":"Backtrace:\n\tOrdinal0 [0x01145843+2512963]\n\tOrdinal0 [0x010DEED1+2092753]\n\tOrdinal0 [0x00FE1F48+1056584]\n\tOrdinal0 [0x00FE4674+1066612]\n\tOrdinal0 [0x00FE453E+1066302]\n\tOrdinal0 [0x00FE47A0+1066912]\n\tOrdinal0 [0x0100C478+1229944]\n\tOrdinal0 [0x01036442+1401922]\n\tOrdinal0 [0x0102562A+1332778]\n\tOrdinal0 [0x0103487F+1394815]\n\tOrdinal0 [0x010254BB+1332411]\n\tOrdinal0 [0x01001D14+1187092]\n\tOrdinal0 [0x01002B79+1190777]\n\tGetHandleVerifier [0x012C0C56+1501718]\n\tGetHandleVerifier [0x0136E97F+2213695]\n\tGetHandleVerifier [0x011C8C92+485970]\n\tGetHandleVerifier [0x011C7D59+482073]\n\tOrdinal0 [0x010E471D+2115357]\n\tOrdinal0 [0x010E8678+2131576]\n\tOrdinal0 [0x010E87B2+2131890]\n\tOrdinal0 [0x010F1971+2169201]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A4E+238]\n"}}"
+http-outgoing-0 << HTTP/1.1 400 Bad Request
+http-outgoing-0 << Content-Length:1236
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:20814] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:20814][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6886][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6886][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:6886
+Connecting to localhost/127.0.0.1:6886
+Connection established 127.0.0.1:52005<->127.0.0.1:6886
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:6886
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6886[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:790[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir3308_525767594"},"goog:chromeOptions":{"debuggerAddress":"localhost:52006"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"dbd6675744c57c2a1be821203b1e93ec"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:790
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6886] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6886][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6886][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6886][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/dbd6675744c57c2a1be821203b1e93ec/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/dbd6675744c57c2a1be821203b1e93ec/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:6886
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/dbd6675744c57c2a1be821203b1e93ec/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6886[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"http://www.google.co.in"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6886] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6886][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6886][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6886][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/dbd6675744c57c2a1be821203b1e93ec/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/dbd6675744c57c2a1be821203b1e93ec/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:6886
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/dbd6675744c57c2a1be821203b1e93ec/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6886[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//*[type='submit'","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 400 Bad Request[\r][\n]"
+http-outgoing-0 << "Content-Length:1236[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"error":"invalid selector","message":"invalid selector: Unable to locate an element with the xpath expression //*[type='submit' because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[type='submit'' is not a valid XPath expression.\n  (Session info: chrome=92.0.4515.159)","stacktrace":"Backtrace:\n\tOrdinal0 [0x01145843+2512963]\n\tOrdinal0 [0x010DEED1+2092753]\n\tOrdinal0 [0x00FE1F48+1056584]\n\tOrdinal0 [0x00FE4674+1066612]\n\tOrdinal0 [0x00FE453E+1066302]\n\tOrdinal0 [0x00FE47A0+1066912]\n\tOrdinal0 [0x0100C478+1229944]\n\tOrdinal0 [0x01036442+1401922]\n\tOrdinal0 [0x0102562A+1332778]\n\tOrdinal0 [0x0103487F+1394815]\n\tOrdinal0 [0x010254BB+1332411]\n\tOrdinal0 [0x01001D14+1187092]\n\tOrdinal0 [0x01002B79+1190777]\n\tGetHandleVerifier [0x012C0C56+1501718]\n\tGetHandleVerifier [0x0136E97F+2213695]\n\tGetHandleVerifier [0x011C8C92+485970]\n\tGetHandleVerifier [0x011C7D59+482073]\n\tOrdinal0 [0x010E471D+2115357]\n\tOrdinal0 [0x010E8678+2131576]\n\tOrdinal0 [0x010E87B2+2131890]\n\tOrdinal0 [0x010F1971+2169201]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A4E+238]\n"}}"
+http-outgoing-0 << HTTP/1.1 400 Bad Request
+http-outgoing-0 << Content-Length:1236
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6886] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6886][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:18709][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:18709][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:18709
+Connecting to localhost/127.0.0.1:18709
+Connection established 127.0.0.1:58637<->127.0.0.1:18709
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:18709
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:18709[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:792[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir14272_1889323804"},"goog:chromeOptions":{"debuggerAddress":"localhost:58638"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"d47afb6c2c4c8d1116a7d439e29ac918"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:792
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:18709] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:18709][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:18709][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:18709][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/d47afb6c2c4c8d1116a7d439e29ac918/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/d47afb6c2c4c8d1116a7d439e29ac918/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:18709
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/d47afb6c2c4c8d1116a7d439e29ac918/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:18709[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"http://www.google.co.in"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:18709] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:18709][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:18709][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:18709][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/d47afb6c2c4c8d1116a7d439e29ac918/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/d47afb6c2c4c8d1116a7d439e29ac918/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:18709
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/d47afb6c2c4c8d1116a7d439e29ac918/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:18709[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//*[type='submit'","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 400 Bad Request[\r][\n]"
+http-outgoing-0 << "Content-Length:1236[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"error":"invalid selector","message":"invalid selector: Unable to locate an element with the xpath expression //*[type='submit' because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[type='submit'' is not a valid XPath expression.\n  (Session info: chrome=92.0.4515.159)","stacktrace":"Backtrace:\n\tOrdinal0 [0x01145843+2512963]\n\tOrdinal0 [0x010DEED1+2092753]\n\tOrdinal0 [0x00FE1F48+1056584]\n\tOrdinal0 [0x00FE4674+1066612]\n\tOrdinal0 [0x00FE453E+1066302]\n\tOrdinal0 [0x00FE47A0+1066912]\n\tOrdinal0 [0x0100C478+1229944]\n\tOrdinal0 [0x01036442+1401922]\n\tOrdinal0 [0x0102562A+1332778]\n\tOrdinal0 [0x0103487F+1394815]\n\tOrdinal0 [0x010254BB+1332411]\n\tOrdinal0 [0x01001D14+1187092]\n\tOrdinal0 [0x01002B79+1190777]\n\tGetHandleVerifier [0x012C0C56+1501718]\n\tGetHandleVerifier [0x0136E97F+2213695]\n\tGetHandleVerifier [0x011C8C92+485970]\n\tGetHandleVerifier [0x011C7D59+482073]\n\tOrdinal0 [0x010E471D+2115357]\n\tOrdinal0 [0x010E8678+2131576]\n\tOrdinal0 [0x010E87B2+2131890]\n\tOrdinal0 [0x010F1971+2169201]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A4E+238]\n"}}"
+http-outgoing-0 << HTTP/1.1 400 Bad Request
+http-outgoing-0 << Content-Length:1236
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:18709] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:18709][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1895][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1895][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:1895
+Connecting to localhost/127.0.0.1:1895
+Connection established 127.0.0.1:56998<->127.0.0.1:1895
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:1895
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1895[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:791[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir8560_1846597100"},"goog:chromeOptions":{"debuggerAddress":"localhost:56999"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"702443812d3c829dd4dfe21e7e16a44a"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:791
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1895] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1895][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1895][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1895][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/702443812d3c829dd4dfe21e7e16a44a/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/702443812d3c829dd4dfe21e7e16a44a/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:1895
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/702443812d3c829dd4dfe21e7e16a44a/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1895[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"http://www.google.co.in"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1895] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1895][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1895][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1895][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/702443812d3c829dd4dfe21e7e16a44a/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/702443812d3c829dd4dfe21e7e16a44a/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:1895
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/702443812d3c829dd4dfe21e7e16a44a/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1895[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//*[type='submit'","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 400 Bad Request[\r][\n]"
+http-outgoing-0 << "Content-Length:1236[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"error":"invalid selector","message":"invalid selector: Unable to locate an element with the xpath expression //*[type='submit' because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[type='submit'' is not a valid XPath expression.\n  (Session info: chrome=92.0.4515.159)","stacktrace":"Backtrace:\n\tOrdinal0 [0x01145843+2512963]\n\tOrdinal0 [0x010DEED1+2092753]\n\tOrdinal0 [0x00FE1F48+1056584]\n\tOrdinal0 [0x00FE4674+1066612]\n\tOrdinal0 [0x00FE453E+1066302]\n\tOrdinal0 [0x00FE47A0+1066912]\n\tOrdinal0 [0x0100C478+1229944]\n\tOrdinal0 [0x01036442+1401922]\n\tOrdinal0 [0x0102562A+1332778]\n\tOrdinal0 [0x0103487F+1394815]\n\tOrdinal0 [0x010254BB+1332411]\n\tOrdinal0 [0x01001D14+1187092]\n\tOrdinal0 [0x01002B79+1190777]\n\tGetHandleVerifier [0x012C0C56+1501718]\n\tGetHandleVerifier [0x0136E97F+2213695]\n\tGetHandleVerifier [0x011C8C92+485970]\n\tGetHandleVerifier [0x011C7D59+482073]\n\tOrdinal0 [0x010E471D+2115357]\n\tOrdinal0 [0x010E8678+2131576]\n\tOrdinal0 [0x010E87B2+2131890]\n\tOrdinal0 [0x010F1971+2169201]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775A7A4E+238]\n"}}"
+http-outgoing-0 << HTTP/1.1 400 Bad Request
+http-outgoing-0 << Content-Length:1236
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1895] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1895][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:47000][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:47000][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:47000
+Connecting to localhost/127.0.0.1:47000
+Connection established 127.0.0.1:63379<->127.0.0.1:47000
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:47000
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:47000[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:792[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir15432_1918770260"},"goog:chromeOptions":{"debuggerAddress":"localhost:63381"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"defde387917bd795ab479a2639375eb9"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:792
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:47000] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:47000][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:47000][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:47000][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/defde387917bd795ab479a2639375eb9/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/defde387917bd795ab479a2639375eb9/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:47000
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/defde387917bd795ab479a2639375eb9/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:47000[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"http://www.google.co.in"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:47000] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:47000][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:47000][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:47000][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/defde387917bd795ab479a2639375eb9/elements HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/defde387917bd795ab479a2639375eb9/elements HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 47
+http-outgoing-0 >> Host: localhost:47000
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/defde387917bd795ab479a2639375eb9/elements HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 47[\r][\n]"
+http-outgoing-0 >> "Host: localhost:47000[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//*[@type='submit']","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:327[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":[{"element-6066-11e4-a52e-4f735466cecf":"a47a522f-4260-49b3-bd8d-6185af3b90fc"},{"element-6066-11e4-a52e-4f735466cecf":"bce21595-e1b4-4bd3-b3ab-92e047c8432b"},{"element-6066-11e4-a52e-4f735466cecf":"d7213959-aef0-4b8f-bc16-7f93f72ab0a7"},{"element-6066-11e4-a52e-4f735466cecf":"39d7eb1a-a703-4095-8bc3-ab736802cca7"}]}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:327
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:47000] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:47000][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:47000][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:47000][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request DELETE /session/defde387917bd795ab479a2639375eb9 HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> DELETE /session/defde387917bd795ab479a2639375eb9 HTTP/1.1
+http-outgoing-0 >> Host: localhost:47000
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "DELETE /session/defde387917bd795ab479a2639375eb9 HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Host: localhost:47000[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:47000] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:47000][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Closing connections idle longer than 0 SECONDS
+http-outgoing-0: Close connection
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:24489][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:24489][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:24489
+Connecting to localhost/127.0.0.1:24489
+Connection established 127.0.0.1:59645<->127.0.0.1:24489
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:24489
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:24489[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:791[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir18528_401961987"},"goog:chromeOptions":{"debuggerAddress":"localhost:59647"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"6a24196b7719b6b34475c39325d69a01"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:791
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:24489] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:24489][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/6a24196b7719b6b34475c39325d69a01/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/6a24196b7719b6b34475c39325d69a01/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:24489
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/6a24196b7719b6b34475c39325d69a01/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:24489[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"http://www.google.co.in"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:24489] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:24489][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/6a24196b7719b6b34475c39325d69a01/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/6a24196b7719b6b34475c39325d69a01/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 47
+http-outgoing-0 >> Host: localhost:24489
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/6a24196b7719b6b34475c39325d69a01/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 47[\r][\n]"
+http-outgoing-0 >> "Host: localhost:24489[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//*[@type='submit']","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"f976d16c-8c4d-4a4a-b557-82808930d102"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:24489] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:24489][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request GET /session/6a24196b7719b6b34475c39325d69a01/element/f976d16c-8c4d-4a4a-b557-82808930d102/rect HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> GET /session/6a24196b7719b6b34475c39325d69a01/element/f976d16c-8c4d-4a4a-b557-82808930d102/rect HTTP/1.1
+http-outgoing-0 >> Cache-Control: no-cache
+http-outgoing-0 >> Host: localhost:24489
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "GET /session/6a24196b7719b6b34475c39325d69a01/element/f976d16c-8c4d-4a4a-b557-82808930d102/rect HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+http-outgoing-0 >> "Host: localhost:24489[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:44[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"height":0,"width":0,"x":0,"y":0}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:44
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:24489] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:24489][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request DELETE /session/6a24196b7719b6b34475c39325d69a01 HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> DELETE /session/6a24196b7719b6b34475c39325d69a01 HTTP/1.1
+http-outgoing-0 >> Host: localhost:24489
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "DELETE /session/6a24196b7719b6b34475c39325d69a01 HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Host: localhost:24489[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:24489] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:24489][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Closing connections idle longer than 0 SECONDS
+http-outgoing-0: Close connection
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:29623][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:29623][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:29623
+Connecting to localhost/127.0.0.1:29623
+Connection established 127.0.0.1:54372<->127.0.0.1:29623
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:29623
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:29623[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:791[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir14868_710795563"},"goog:chromeOptions":{"debuggerAddress":"localhost:54374"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"789de6202e3eb6065f6d790d775a3bf9"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:791
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:29623] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:29623][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:29623][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:29623][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/789de6202e3eb6065f6d790d775a3bf9/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/789de6202e3eb6065f6d790d775a3bf9/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:29623
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/789de6202e3eb6065f6d790d775a3bf9/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:29623[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"http://www.google.co.in"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:29623] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:29623][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:29623][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:29623][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/789de6202e3eb6065f6d790d775a3bf9/elements HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/789de6202e3eb6065f6d790d775a3bf9/elements HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 51
+http-outgoing-0 >> Host: localhost:29623
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/789de6202e3eb6065f6d790d775a3bf9/elements HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 51[\r][\n]"
+http-outgoing-0 >> "Host: localhost:29623[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//input[@type='submit']","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:327[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":[{"element-6066-11e4-a52e-4f735466cecf":"54d92bbc-9217-465a-9cc0-1b58b7e0eef2"},{"element-6066-11e4-a52e-4f735466cecf":"e0adca9c-8609-4f86-966d-0c7e47f095cf"},{"element-6066-11e4-a52e-4f735466cecf":"b6e9b40f-01e7-4b3e-9f2e-00ae023d3558"},{"element-6066-11e4-a52e-4f735466cecf":"02317f61-f16b-4f23-959e-3bd5eb9be79a"}]}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:327
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:29623] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:29623][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:29623][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:29623][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request DELETE /session/789de6202e3eb6065f6d790d775a3bf9 HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> DELETE /session/789de6202e3eb6065f6d790d775a3bf9 HTTP/1.1
+http-outgoing-0 >> Host: localhost:29623
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "DELETE /session/789de6202e3eb6065f6d790d775a3bf9 HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Host: localhost:29623[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:29623] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:29623][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Closing connections idle longer than 0 SECONDS
+http-outgoing-0: Close connection
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:6971
+Connecting to localhost/127.0.0.1:6971
+Connection established 127.0.0.1:59901<->127.0.0.1:6971
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:790[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir8268_944944223"},"goog:chromeOptions":{"debuggerAddress":"localhost:59902"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"88c6f8ce8c63cd7e426e8d1567f6a774"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:790
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"https://www.amazon.com/"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 60
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 60[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"#nav\\-link\\-accountList","using":"css selector"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"83833cf5-b7eb-436b-afaa-5db9421a857c"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/actions HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/actions HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 289
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/actions HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 289[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"actions":[{"id":"default mouse","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"duration":100,"x":0,"y":0,"type":"pointerMove","origin":{"ELEMENT":"83833cf5-b7eb-436b-afaa-5db9421a857c","element-6066-11e4-a52e-4f735466cecf":"83833cf5-b7eb-436b-afaa-5db9421a857c"}}]}]}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+http-outgoing-0 << "[read] I/O error: Read timed out"
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 61
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 61[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//span[@class='nav-action-inner']","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"900ca8cd-b257-4207-9687-44b2b706b39b"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element/900ca8cd-b257-4207-9687-44b2b706b39b/click HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element/900ca8cd-b257-4207-9687-44b2b706b39b/click HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/88c6f8ce8c63cd7e426e8d1567f6a774/element/900ca8cd-b257-4207-9687-44b2b706b39b/click HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"id":"900ca8cd-b257-4207-9687-44b2b706b39b"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request GET /session/88c6f8ce8c63cd7e426e8d1567f6a774/title HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> GET /session/88c6f8ce8c63cd7e426e8d1567f6a774/title HTTP/1.1
+http-outgoing-0 >> Cache-Control: no-cache
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "GET /session/88c6f8ce8c63cd7e426e8d1567f6a774/title HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:26[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":"Amazon Sign-In"}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:26
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:6971][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request DELETE /session/88c6f8ce8c63cd7e426e8d1567f6a774 HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> DELETE /session/88c6f8ce8c63cd7e426e8d1567f6a774 HTTP/1.1
+http-outgoing-0 >> Host: localhost:6971
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "DELETE /session/88c6f8ce8c63cd7e426e8d1567f6a774 HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Host: localhost:6971[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:6971] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:6971][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Closing connections idle longer than 0 SECONDS
+http-outgoing-0: Close connection
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:11502
+Connecting to localhost/127.0.0.1:11502
+Connection established 127.0.0.1:65089<->127.0.0.1:11502
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:791[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir4144_2141556771"},"goog:chromeOptions":{"debuggerAddress":"localhost:65091"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"79ddbe61290a2ea3daf395e75d27bdb9"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:791
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/79ddbe61290a2ea3daf395e75d27bdb9/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/79ddbe61290a2ea3daf395e75d27bdb9/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/79ddbe61290a2ea3daf395e75d27bdb9/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"https://www.amazon.com/"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 60
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 60[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"#nav\\-link\\-accountList","using":"css selector"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"1b18fc04-d59a-4140-aae3-56ab7dcd47c2"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/79ddbe61290a2ea3daf395e75d27bdb9/actions HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/79ddbe61290a2ea3daf395e75d27bdb9/actions HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 289
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/79ddbe61290a2ea3daf395e75d27bdb9/actions HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 289[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"actions":[{"id":"default mouse","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"duration":100,"x":0,"y":0,"type":"pointerMove","origin":{"ELEMENT":"1b18fc04-d59a-4140-aae3-56ab7dcd47c2","element-6066-11e4-a52e-4f735466cecf":"1b18fc04-d59a-4140-aae3-56ab7dcd47c2"}}]}]}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+http-outgoing-0 << "[read] I/O error: Read timed out"
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 61
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 61[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//span[@class='nav-action-inner']","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"5abd8fd9-efcb-4b91-a8b9-1e939c40ed7f"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element/5abd8fd9-efcb-4b91-a8b9-1e939c40ed7f/click HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element/5abd8fd9-efcb-4b91-a8b9-1e939c40ed7f/click HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/79ddbe61290a2ea3daf395e75d27bdb9/element/5abd8fd9-efcb-4b91-a8b9-1e939c40ed7f/click HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"id":"5abd8fd9-efcb-4b91-a8b9-1e939c40ed7f"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request GET /session/79ddbe61290a2ea3daf395e75d27bdb9/title HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> GET /session/79ddbe61290a2ea3daf395e75d27bdb9/title HTTP/1.1
+http-outgoing-0 >> Cache-Control: no-cache
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "GET /session/79ddbe61290a2ea3daf395e75d27bdb9/title HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:26[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":"Amazon Sign-In"}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:26
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:11502][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request DELETE /session/79ddbe61290a2ea3daf395e75d27bdb9 HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> DELETE /session/79ddbe61290a2ea3daf395e75d27bdb9 HTTP/1.1
+http-outgoing-0 >> Host: localhost:11502
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "DELETE /session/79ddbe61290a2ea3daf395e75d27bdb9 HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Host: localhost:11502[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:11502] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:11502][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Closing connections idle longer than 0 SECONDS
+http-outgoing-0: Close connection
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:1902
+Connecting to localhost/127.0.0.1:1902
+Connection established 127.0.0.1:59687<->127.0.0.1:1902
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:792[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir10848_1637409862"},"goog:chromeOptions":{"debuggerAddress":"localhost:59689"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"97062213fa0eabcb2fd948a695d73ad6"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:792
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/97062213fa0eabcb2fd948a695d73ad6/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/97062213fa0eabcb2fd948a695d73ad6/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/97062213fa0eabcb2fd948a695d73ad6/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"https://www.amazon.com/"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/97062213fa0eabcb2fd948a695d73ad6/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/97062213fa0eabcb2fd948a695d73ad6/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 60
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/97062213fa0eabcb2fd948a695d73ad6/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 60[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"#nav\\-link\\-accountList","using":"css selector"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"aae99894-47e2-442a-b48c-ef7abbb1f25c"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/97062213fa0eabcb2fd948a695d73ad6/actions HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/97062213fa0eabcb2fd948a695d73ad6/actions HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 289
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/97062213fa0eabcb2fd948a695d73ad6/actions HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 289[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"actions":[{"id":"default mouse","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"duration":100,"x":0,"y":0,"type":"pointerMove","origin":{"ELEMENT":"aae99894-47e2-442a-b48c-ef7abbb1f25c","element-6066-11e4-a52e-4f735466cecf":"aae99894-47e2-442a-b48c-ef7abbb1f25c"}}]}]}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+http-outgoing-0 << "[read] I/O error: Read timed out"
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/97062213fa0eabcb2fd948a695d73ad6/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/97062213fa0eabcb2fd948a695d73ad6/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 61
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/97062213fa0eabcb2fd948a695d73ad6/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 61[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//span[@class='nav-action-inner']","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"f5869f11-3ce9-4213-a905-e868a5e4a15d"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/97062213fa0eabcb2fd948a695d73ad6/element/f5869f11-3ce9-4213-a905-e868a5e4a15d/click HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/97062213fa0eabcb2fd948a695d73ad6/element/f5869f11-3ce9-4213-a905-e868a5e4a15d/click HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/97062213fa0eabcb2fd948a695d73ad6/element/f5869f11-3ce9-4213-a905-e868a5e4a15d/click HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"id":"f5869f11-3ce9-4213-a905-e868a5e4a15d"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request GET /session/97062213fa0eabcb2fd948a695d73ad6/title HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> GET /session/97062213fa0eabcb2fd948a695d73ad6/title HTTP/1.1
+http-outgoing-0 >> Cache-Control: no-cache
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "GET /session/97062213fa0eabcb2fd948a695d73ad6/title HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:26[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":"Amazon Sign-In"}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:26
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:1902][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request DELETE /session/97062213fa0eabcb2fd948a695d73ad6 HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> DELETE /session/97062213fa0eabcb2fd948a695d73ad6 HTTP/1.1
+http-outgoing-0 >> Host: localhost:1902
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "DELETE /session/97062213fa0eabcb2fd948a695d73ad6 HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Host: localhost:1902[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:1902] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:1902][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Closing connections idle longer than 0 SECONDS
+http-outgoing-0: Close connection
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Opening connection {}->http://localhost:32317
+Connecting to localhost/127.0.0.1:32317
+Connection established 127.0.0.1:63258<->127.0.0.1:32317
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 550
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{[\n]"
+http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+http-outgoing-0 >> "    "chromeOptions": {[\n]"
+http-outgoing-0 >> "      "args": [],[\n]"
+http-outgoing-0 >> "      "extensions": [][\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "version": "",[\n]"
+http-outgoing-0 >> "    "platform": "ANY"[\n]"
+http-outgoing-0 >> "  },[\n]"
+http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "  "capabilities": {[\n]"
+http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+http-outgoing-0 >> "      "chromeOptions": {[\n]"
+http-outgoing-0 >> "        "args": [],[\n]"
+http-outgoing-0 >> "        "extensions": [][\n]"
+http-outgoing-0 >> "      },[\n]"
+http-outgoing-0 >> "      "version": "",[\n]"
+http-outgoing-0 >> "      "platform": "ANY"[\n]"
+http-outgoing-0 >> "    },[\n]"
+http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+http-outgoing-0 >> "    "firstMatch": [[\n]"
+http-outgoing-0 >> "      {[\n]"
+http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+http-outgoing-0 >> "      }[\n]"
+http-outgoing-0 >> "    ][\n]"
+http-outgoing-0 >> "  }[\n]"
+http-outgoing-0 >> "}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:790[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"92.0.4515.159","chrome":{"chromedriverVersion":"92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})","userDataDir":"C:\\Users\\00002768\\AppData\\Local\\Temp\\scoped_dir9392_926213542"},"goog:chromeOptions":{"debuggerAddress":"localhost:63259"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"ca226aaf1278563b6bc46fdf08ffb6d9"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:790
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/url HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/url HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 33
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/url HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 33[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"url":"https://www.amazon.com/"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 60
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 60[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"#nav\\-link\\-accountList","using":"css selector"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"803b6406-5ec9-400e-8df8-4b6592e02a44"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/actions HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/actions HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 289
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/actions HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 289[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"actions":[{"id":"default mouse","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"duration":100,"x":0,"y":0,"type":"pointerMove","origin":{"ELEMENT":"803b6406-5ec9-400e-8df8-4b6592e02a44","element-6066-11e4-a52e-4f735466cecf":"803b6406-5ec9-400e-8df8-4b6592e02a44"}}]}]}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+http-outgoing-0 << "[read] I/O error: Read timed out"
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 61
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 61[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"value":"//span[@class='nav-action-inner']","using":"xpath"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:88[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"e1f68da6-0dc8-4bd5-9fc9-ce0dbedebf76"}}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:88
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element/e1f68da6-0dc8-4bd5-9fc9-ce0dbedebf76/click HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element/e1f68da6-0dc8-4bd5-9fc9-ce0dbedebf76/click HTTP/1.1
+http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+http-outgoing-0 >> Content-Length: 45
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /session/ca226aaf1278563b6bc46fdf08ffb6d9/element/e1f68da6-0dc8-4bd5-9fc9-ce0dbedebf76/click HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"id":"e1f68da6-0dc8-4bd5-9fc9-ce0dbedebf76"}"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request GET /session/ca226aaf1278563b6bc46fdf08ffb6d9/title HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> GET /session/ca226aaf1278563b6bc46fdf08ffb6d9/title HTTP/1.1
+http-outgoing-0 >> Cache-Control: no-cache
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "GET /session/ca226aaf1278563b6bc46fdf08ffb6d9/title HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:26[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":"Amazon Sign-In"}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:26
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Connection leased: [id: 0][route: {}->http://localhost:32317][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Stale connection check
+http-outgoing-0 << "[read] I/O error: Read timed out"
+http-outgoing-0: set socket timeout to 10800000
+Executing request DELETE /session/ca226aaf1278563b6bc46fdf08ffb6d9 HTTP/1.1
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> DELETE /session/ca226aaf1278563b6bc46fdf08ffb6d9 HTTP/1.1
+http-outgoing-0 >> Host: localhost:32317
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "DELETE /session/ca226aaf1278563b6bc46fdf08ffb6d9 HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Host: localhost:32317[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_271)[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+http-outgoing-0 << "Content-Length:14[\r][\n]"
+http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"value":null}"
+http-outgoing-0 << HTTP/1.1 200 OK
+http-outgoing-0 << Content-Length:14
+http-outgoing-0 << Content-Type:application/json; charset=utf-8
+http-outgoing-0 << cache-control:no-cache
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {}->http://localhost:32317] can be kept alive indefinitely
+Connection released: [id: 0][route: {}->http://localhost:32317][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Closing connections idle longer than 0 SECONDS
+http-outgoing-0: Close connection
