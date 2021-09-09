@@ -1,3 +1,13 @@
+/**
+ * CASE STUDY 6
+ *  1. Navigate to Youcandealwithit.com
+ *	2. Mouse Hover to Borrowers (IMPORTANT - Do only Mouse Over NOT click)
+ *	3. Click Calculators and Resources
+ *	4. Click on Calculators
+ *	5. Click on Budget Calculators
+ *	6. Print the Title and Close the appln
+ */
+
 package newproject;
 
 import org.openqa.selenium.By;
