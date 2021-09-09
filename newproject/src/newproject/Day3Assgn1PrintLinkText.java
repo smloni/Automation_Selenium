@@ -1,4 +1,6 @@
 package newproject;
+import java.nio.charset.Charset;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -39,10 +41,16 @@ public class Day3Assgn1PrintLinkText
 			 
 			 for (int i=0;i<size1;i++)
 			 {
+				 
+				 //String tmp = elem.getText();
+				 //String utfString = new String(tmp.getBytes(Charset.forName("utf-8")));
+				 
 				 String linkHref=driver.findElements(By.tagName("a")).get(i).getAttribute("href");
 				 String linktext=driver.findElements(By.tagName("a")).get(i).getText();
-				 // myPrint(linktext);
-				 System.out.println(linktext+" - "+linkHref);
+				 String utfString=new String(linktext.getBytes(Charset.forName("utf-8")));
+				 
+				// myPrint(utfString);
+				 System.out.println("Link :"+linktext+" - "+linkHref);
 										
 			 }
 	 
